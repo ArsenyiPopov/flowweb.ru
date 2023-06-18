@@ -1,0 +1,177 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+body {
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+ /* Header styles start */
+
+.header {
+    /* position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;    
+    transition: .2s linear;
+    z-index: 999;
+    background: #ffffff;
+}
+.container {
+    max-width: 1445px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.header__container {
+    max-width: 945px;
+    margin: 0 auto;
+    padding: 0 0px;
+    
+    
+}
+.header__list {
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    border-color: #828282;
+    border-width: 1px;
+    margin-bottom: 39px;
+}
+.header__link {
+    font-family: 'Gilroy-Bold', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.header__link:hover, .header__link:focus, .header__link:active {
+    color: #070707;
+    text-decoration: none;
+}
+
+ /* Header styles end */
+
+ /* intro styles start */
+.intro__container {
+    max-width: 945px;
+    margin: 0 auto;
+    padding: 0 0px;
+
+}
+
+.intro__info_name {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 48px;
+    line-height: 59px;
+    color: #070707;
+}
+.surname {
+    font-size: 41px;
+}
+.intro__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 35px;
+
+
+}
+.intro__info_form {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+.intro__info_nav {
+    writing-mode: vertical-rl;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.intro__info_nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+}
+.intro__info_nav-link:hover, .intro__info_nav-link:focus, .intro__info_nav-link:active {
+    color: #070707;
+    text-decoration: none;
+}
+.black {
+    color: #070707;
+}
+.black-link:hover, .black-link:focus, .black-link:active {
+    color: #828282;
+}
+.intro__info_img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+} 
+
+/* intro styles end */
+
+/* about_me styles start */
+
+.about_me {
+    width: auto;
+    height: 506px;
+    background: #F6F6F6;
+}
+
+.about_me__container {
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.about_me__container_titel {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+    margin-top: 120px;
+}
+.about_me__description {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    color: #070707;
+
+}
+
+/* about_me styles end */
+
+/* Practice styles start */
+.practice__container {
+    max-width: 945px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+.practice__container_titel {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+    margin-top: 92px;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+.practice__container_description {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    color: #070707;
+    margin-bottom: 83px;
+}
+
+/* Practice styles end */
